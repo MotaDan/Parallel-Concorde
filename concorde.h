@@ -22,7 +22,7 @@
 /* #undef CC_PROTO_GETRUSAGE */
 
 /* Define if you want to use posix threads */
-/* #undef CC_POSIXTHREADS */
+#define CC_POSIXTHREADS 1
 
 /* Define if <signal.h> needs to be included before <pthreads.h> */
 /* #undef CC_SIGNAL_BEFORE_PTHREAD */
